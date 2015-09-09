@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+gem 'rakuna-core', '~> 1.0'
+gem 'multi_json', '~> 1.11'
+
+group :development do
+  gem 'flog', '~> 4.3'
+  gem 'inch', '~> 0.6'
+  gem 'jeweler', '~> 2.0'
+  gem 'reek', '~> 3.1'
+  gem 'roodi', '~> 5.0'
+  gem 'rspec', '~> 3.3'
+  gem 'rubocop', '~> 0.33'
+  gem 'simplecov', '~> 0.10'
+  gem 'yard', '~> 0.8'
+end
